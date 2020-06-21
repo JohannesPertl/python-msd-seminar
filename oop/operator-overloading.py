@@ -3,13 +3,6 @@ class Crow:
         self.name = name
         self.age = age
 
-    # Magic method to overload + operator
-    def __add__(self, crow):
-        murder = Murder()
-        murder + crow
-        murder + self
-        return murder
-
     def __str__(self):
         return f"Name: {self.name}, Age: {self.age}"
 
@@ -32,12 +25,11 @@ class Murder:
 
 crow = Crow("Mr. Zwiebel", 7)
 
-murder = crow + crow
+murder = Murder()
+
+murder + crow
 
 print(len(murder))
 
 murder.crows[0].caw()
 
-murder + crow
-
-print(len(murder))
