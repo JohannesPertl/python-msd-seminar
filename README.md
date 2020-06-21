@@ -13,6 +13,8 @@
   * [Functional Programming](functional-programming)
      * [Higher Order Functions](functional-programming/higher-order-functions.py)
      * [Decorators](functional-programming/decorators.py)
+     * [List Comprehension](functional-programming/list-comprehension.py)
+     * [Lambda functions](functional-programming/lambda.py)
 * [Sources](#sources)
      
           
