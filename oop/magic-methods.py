@@ -28,7 +28,7 @@ class Murder:
         return len(self.crows)
 
 
-crow = Crow("Mr Zwiebel", 7)
+crow = Crow("Mr. Crow", 7)
 print(crow)  # Calls __str__ method
 
 murder = Murder()

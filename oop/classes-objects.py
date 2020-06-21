@@ -16,7 +16,7 @@ class Crow(Bird):
         print("CAAAAAW!")
 
 
-crow = Crow("Mr. Zwiebel", 7)
+crow = Crow("Mr. Crow", 7)
 
 print(crow.name)
 print(crow.age)

@@ -23,7 +23,7 @@ class Murder:
         return len(self.crows)
 
 
-crow = Crow("Mr. Zwiebel", 7)
+crow = Crow("Mr. Crow", 7)
 
 murder = Murder()
 
