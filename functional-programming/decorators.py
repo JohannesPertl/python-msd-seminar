@@ -1,10 +1,18 @@
+# Decorator design pattern
+
+def do_twice(func):
+    def wrapper():
+        func()
+        func()
+
+    return wrapper
+
+@do_twice
 def hello_world():
     print("Hello world!")
 
 
-def do_twice(func):
-    def wrapper_do_twice():
-        func()
-        func()
+# hello_world = do_twice(hello_world)
 
-    return wrapper_do_twice
+hello_world()
+
