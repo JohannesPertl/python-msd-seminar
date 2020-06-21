@@ -13,9 +13,9 @@
   * [Functional Programming](#functional-programming)
      * [Higher Order Functions](#higher-order-functions)
      * [Decorators](#decorators)
+* [Sources](#sources)
      
-     .... eventuell mehr
-     
+          
 # Setup
 
 * [Install Python 3](https://www.python.org/downloads)
@@ -26,38 +26,25 @@
 
 ### Classes & Objects
 
-**Sources**
-
- * 
-
 ### Magic Methods
 
-**Sources**
-
- * 
 
 ### Operator Overloading
 
-**Sources**
-
- * 
 
 ### Properties
 
-**Sources**
-
- * 
 
 ## Functional Programming
 
 ### Higher Order Functions
 
-**Sources**
-
- * 
 
 ### Decorators
 
-**Sources**
-
- * [Detailed explanation on Stackoverflow](https://stackoverflow.com/questions/739654/how-to-make-a-chain-of-function-decorators/1594484#1594484)
+# Sources
+ * [Classes](https://www.w3schools.com/python/python_classes.asp)
+ * [f-Strings](https://realpython.com/python-f-strings)
+ * [Operator overloading](https://realpython.com/operator-function-overloading/)
+ * [Higher order functions](https://www.geeksforgeeks.org/higher-order-functions-in-python)
+ * [Decorators](https://stackoverflow.com/questions/739654/how-to-make-a-chain-of-function-decorators/1594484#1594484)
