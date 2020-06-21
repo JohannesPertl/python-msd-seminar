@@ -3,12 +3,24 @@
 
 
 def shout(text):
-    return text.upper()
+    print(text.upper())
 
 
-print(shout('Hello'))
+shout('Hello')
 
 # Assigning function to a variable
 yell = shout  # Notice: No parentheses
 
-print(yell('Hello'))
+yell('Hello')
+
+
+def whisper(text):
+    print(text.lower())
+
+
+def greet(func):
+    func("Hi, I am created by a function passed as an argument.")
+
+
+greet(shout)
+greet(whisper)
