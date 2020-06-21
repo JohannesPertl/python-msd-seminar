@@ -4,15 +4,15 @@
 ## Table of Contents
 
 * [Setup](#setup)
-* [Course Content](#course-content)
-  * [OOP](#oop)
-     * [Classes & Objects](#classes--objects)
-     * [Magic Methods](#magic-methods)
-     * [Operator Overloading](#operator-overloading)
-     * [Properties](#properties)  
-  * [Functional Programming](#functional-programming)
-     * [Higher Order Functions](#higher-order-functions)
-     * [Decorators](#decorators)
+* Course Content
+  * [OOP](oop)
+     * [Classes & Objects](oop/classes-objects.py)
+     * [Magic Methods](oop/magic-methods.py)
+     * [Operator Overloading](oop/operator-overloading.py)
+     * [Properties](oop/properties.py)  
+  * [Functional Programming](functional-programming)
+     * [Higher Order Functions](functional-programming/higher-order-functions.py)
+     * [Decorators](functional-programming/decorators.py)
 * [Sources](#sources)
      
           
@@ -20,27 +20,6 @@
 
 * [Install Python 3](https://www.python.org/downloads)
 
-# Course Content
-
-## OOP
-
-### Classes & Objects
-
-### Magic Methods
-
-
-### Operator Overloading
-
-
-### Properties
-
-
-## Functional Programming
-
-### Higher Order Functions
-
-
-### Decorators
 
 # Sources
  * [Classes](https://www.w3schools.com/python/python_classes.asp)
